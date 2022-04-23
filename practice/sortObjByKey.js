@@ -25,3 +25,8 @@ let data = [{
         return 0;
     })
     console.log("🚀 ~ file: sortObjByKey.js ~ line 26 ~ data.sort ~ data", data)
+
+    const res = data.filter((data) => {
+        return data.subject.includes('english')
+    })
+    console.log("🚀 ~ file: sortObjByKey.js ~ line 26 ~ data.sort ~ data", res)
