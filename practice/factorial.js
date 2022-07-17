@@ -12,7 +12,8 @@ function iterativeApproach(number) {
 function recursiveApproach(number) {
     if (number < 0) return 'Invalid number'
     if (number === 0) return 1;
-    return (number * recursiveApproach(number - 1));
+    let factorial = number * recursiveApproach(number - 1);
+    return factorial;
 }
 
 console.log(iterativeApproach(5));
