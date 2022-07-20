@@ -7,5 +7,5 @@ function swapKeyValue(object) {
   }
   return newObj;
 }
-const result = swapKeyValue(obj);
-console.log("🚀 ~ file: index.js ~ line 11 ~ result", result);
+
+console.log(swapKeyValue(obj));
