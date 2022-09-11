@@ -9,6 +9,15 @@ for (let i = 0; i < array.length; i++) {
   // if (frequenciesObj[array[i]]) frequenciesObj[array[i]] += 1;
   // else frequenciesObj[array[i]] = 1;
 }
+
+let frequenciesMap = new Map()
+for (let i = 0; i < array.length; i++) {
+  if (frequenciesMap.has(A[i]))
+    frequenciesMap.set(array[i], ++1)
+}
+console.log("🚀 ~ file: frequencyOfArrayElements.js ~ line 16 ~ frequenciesMap", frequenciesMap)
+
+
 console.log("🚀 ~ file: frequencyOfArrayElements.js ~ line 7 ~ frequenciesObj", frequenciesObj)
 
 console.log("🚀 ~ file: frequencyOfArrayElements.js ~ line 5 ~ frequencies ~ frequencies", frequencies)

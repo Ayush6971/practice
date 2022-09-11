@@ -8,4 +8,4 @@ function fibonacci(num) {
         n2 = nextTerm;
     }
 }
-fibonacci(8)
+fibonacci(1)
